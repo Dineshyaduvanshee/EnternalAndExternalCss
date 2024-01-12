@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-admin',
   templateUrl: './admin.component.html',
-  styleUrls: ['./admin.component.css','./test.css']
+  styleUrls: ['./admin.component.css','./test.css'],
+  preserveWhitespaces:true
 })
-export class AdminComponent {
+export class AdminComponent implements OnInit{
+  ngOnInit(): void {
+    
+  }
 
 }
